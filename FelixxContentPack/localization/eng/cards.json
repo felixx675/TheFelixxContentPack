@@ -1,3 +1,4 @@
 {
-  
+  "FELIXXCONTENTPACK-STOCKPILE.description": "Draw {IfUpgraded:show:3|2} cards. Retain your [gold]Hand[/gold] this turn.",
+  "FELIXXCONTENTPACK-STOCKPILE.title": "Stockpile"
 }

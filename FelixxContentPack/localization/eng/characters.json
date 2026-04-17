@@ -1,3 +1,16 @@
 {
-  
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.aromaPrinciple": "Lore",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.banter.dead.endTurnPing": "...",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.cardsModifierTitle": "__ Cards",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.description": "Character Selection\nScreen Description",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.eventDeathPrevention": "Co-op survival line",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.possessiveAdjective": "his/her/its",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.pronounObject": "him/her/it",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.pronounPossessive": "his/hers/its",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.pronounSubject": "he/she/it",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.title": "The FelixxContentPack",
+  "FELIXXCONTENTPACK-FELIXX_CONTENT_PACK.titleObject": "The FelixxContentPack"
 }

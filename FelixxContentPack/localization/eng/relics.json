@@ -1,3 +1,9 @@
 {
-  
+  "FELIXXCONTENTPACK-FOSSILIZED_HELIX.description": "Prevent the first time you would lose HP in combat.",
+  "FELIXXCONTENTPACK-FOSSILIZED_HELIX.flavor": "",
+  "FELIXXCONTENTPACK-FOSSILIZED_HELIX.title": "Fossilized Helix",
+
+  "FELIXXCONTENTPACK-TINY_HOUSE.description": "Obtain 1 Potion. Gain 50 Gold. Raise your Max HP by 5. Obtain 1 Card. Upgrade 1 Random Card.",
+  "FELIXXCONTENTPACK-TINY_HOUSE.flavor": "",
+  "FELIXXCONTENTPACK-TINY_HOUSE.title": "TinyHouse"
 }

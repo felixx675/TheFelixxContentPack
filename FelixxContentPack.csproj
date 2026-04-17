@@ -60,9 +60,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="FelixxContentPack\images\card_portraits\big\"/>
         <Folder Include="FelixxContentPack\images\powers\big\"/>
-        <Folder Include="FelixxContentPack\images\relics\big\"/>
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">
