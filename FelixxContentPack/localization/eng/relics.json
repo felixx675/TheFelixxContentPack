@@ -5,10 +5,18 @@
 
   "FELIXXCONTENTPACK-TINY_HOUSE.description": "Obtain [blue]1[/blue] potion. Gain [blue]50[/blue] [gold]Gold[/gold]. Raise your Max HP by [blue]5[/blue]. Obtain [blue]1[/blue] card reward. [gold]Upgrade[/gold] [blue]1[/blue] random card.",
   "FELIXXCONTENTPACK-TINY_HOUSE.flavor": "",
-  "FELIXXCONTENTPACK-TINY_HOUSE.title": "TinyHouse",
+  "FELIXXCONTENTPACK-TINY_HOUSE.title": "Tiny House",
 
   "FELIXXCONTENTPACK-SMILING_MASK.description": "The merchant's card removal service now always costs [blue]75[/blue] [gold]Gold[/gold].",
   "FELIXXCONTENTPACK-SMILING_MASK.flavor": "",
-  "FELIXXCONTENTPACK-SMILING_MASK.title": "SmilingMask"
+  "FELIXXCONTENTPACK-SMILING_MASK.title": "Smiling Mask",
+
+  "FELIXXCONTENTPACK-DEAD_BRANCH.description": "Every [blue]2[/blue] times you [gold]Exhaust[/gold] a card, add a random card into your [gold]Hand[/gold].",
+  "FELIXXCONTENTPACK-DEAD_BRANCH.flavor": "",
+  "FELIXXCONTENTPACK-DEAD_BRANCH.title": "Dead Branch",
+
+  "FELIXXCONTENTPACK-SINGING_BOWL.description": "Whenever you enter a [gold]?[/gold] room, gain [blue]2[/blue] Max HP.",
+  "FELIXXCONTENTPACK-SINGING_BOWL.flavor": "",
+  "FELIXXCONTENTPACK-SINGING_BOWL.title": "Singing Bowl"
   
 }
