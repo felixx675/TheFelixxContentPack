@@ -25,6 +25,10 @@
 
   "FELIXXCONTENTPACK-SPECIAL_POUCH.description": "At the start of each combat, draw [blue]1[/blue] additional card for each [gold]Innate[/gold] card in your [gold]Hand[/gold].",
   "FELIXXCONTENTPACK-SPECIAL_POUCH.flavor": "",
-  "FELIXXCONTENTPACK-SPECIAL_POUCH.title": "Special Pouch"
+  "FELIXXCONTENTPACK-SPECIAL_POUCH.title": "Special Pouch",
+
+  "FELIXXCONTENTPACK-HOLO_SHIELD.description": "At the start of your turn, gain [gold]Block[/gold] equal to the turn number.",
+  "FELIXXCONTENTPACK-HOLO_SHIELD.flavor": "",
+  "FELIXXCONTENTPACK-HOLO_SHIELD.title": "Holographic Walnut"
   
 }
