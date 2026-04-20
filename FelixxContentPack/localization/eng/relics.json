@@ -21,6 +21,10 @@
 
   "FELIXXCONTENTPACK-BIRD_URN.description": "Create an [gold]Ethereal[/gold] copy of the first [gold]Power[/gold] you play each turn that costs 1 more.",
   "FELIXXCONTENTPACK-BIRD_URN.flavor": "",
-  "FELIXXCONTENTPACK-BIRD_URN.title": "Bird-Faced Urn"
+  "FELIXXCONTENTPACK-BIRD_URN.title": "Bird-Faced Urn",
+
+  "FELIXXCONTENTPACK-SPECIAL_POUCH.description": "At the start of each combat, draw [blue]1[/blue] additional card for each [gold]Innate[/gold] card in your [gold]Hand[/gold].",
+  "FELIXXCONTENTPACK-SPECIAL_POUCH.flavor": "",
+  "FELIXXCONTENTPACK-SPECIAL_POUCH.title": "Special Pouch"
   
 }
