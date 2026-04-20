@@ -17,6 +17,10 @@
 
   "FELIXXCONTENTPACK-SINGING_BOWL.description": "Whenever you enter a [gold]?[/gold] room, gain [blue]2[/blue] Max HP.",
   "FELIXXCONTENTPACK-SINGING_BOWL.flavor": "",
-  "FELIXXCONTENTPACK-SINGING_BOWL.title": "Singing Bowl"
+  "FELIXXCONTENTPACK-SINGING_BOWL.title": "Singing Bowl",
+
+  "FELIXXCONTENTPACK-BIRD_URN.description": "Create an [gold]Ethereal[/gold] copy of the first [gold]Power[/gold] you play each turn that costs 1 more.",
+  "FELIXXCONTENTPACK-BIRD_URN.flavor": "",
+  "FELIXXCONTENTPACK-BIRD_URN.title": "Bird-Faced Urn"
   
 }
