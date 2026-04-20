@@ -29,6 +29,10 @@
 
   "FELIXXCONTENTPACK-HOLO_SHIELD.description": "At the start of your turn, gain [gold]Block[/gold] equal to the turn number.",
   "FELIXXCONTENTPACK-HOLO_SHIELD.flavor": "",
-  "FELIXXCONTENTPACK-HOLO_SHIELD.title": "Holographic Walnut"
+  "FELIXXCONTENTPACK-HOLO_SHIELD.title": "Holographic Walnut",
+
+  "FELIXXCONTENTPACK-WARPED_TONGS.description": "Whenever you [gold]Smith[/gold] at a [gold]Rest Site[/gold], [gold]Upgrade[/gold] a random card.",
+  "FELIXXCONTENTPACK-WARPED_TONGS.flavor": "",
+  "FELIXXCONTENTPACK-WARPED_TONGS.title": "Warped Tongs"
   
 }

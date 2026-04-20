@@ -3,73 +3,68 @@ using BaseLib.Extensions;
 using BaseLib.Utils;
 using FelixxContentPack.FelixxContentPackCode.Extensions;
 using Godot;
-
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Relics;
-using MegaCrit.Sts2.Core.GameActions.Multiplayer;
-using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Extensions;
+using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.RelicPools;
-using MegaCrit.Sts2.Core.ValueProps;
 
 namespace FelixxContentPack.FelixxContentPackCode.Relics;
 
+
 [Pool(typeof(SharedRelicPool))]
-public class HoloShield : CustomRelicModel
+public class WarpedTongs : CustomRelicModel
 {
     public override string PackedIconPath
     {
         get
         {
             var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".RelicImagePath();
-            return ResourceLoader.Exists(path) ? path : "holoshield.png".RelicImagePath();
+            return ResourceLoader.Exists(path) ? path : "warpedtongs.png".RelicImagePath();
         }
     }
-
     protected override string PackedIconOutlinePath
     {
         get
         {
             var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}_outline.png".RelicImagePath();
-            return ResourceLoader.Exists(path) ? path : "holoshield_outline.png".RelicImagePath();
+            return ResourceLoader.Exists(path) ? path : "warpedtongs_outline.png".RelicImagePath();
         }
     }
-
     protected override string BigIconPath
     {
         get
         {
             var path = $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigRelicImagePath();
-            return ResourceLoader.Exists(path) ? path : "holoshield.png".BigRelicImagePath();
+            return ResourceLoader.Exists(path) ? path : "warpedtongs.png".BigRelicImagePath();
         }
     }
+    
+    public override RelicRarity Rarity => RelicRarity.Uncommon;
 
-    public override RelicRarity Rarity => RelicRarity.Common;
-
-    protected override IEnumerable<DynamicVar> CanonicalVars =>
-        new[]
-        {
-            new BlockVar(0M, ValueProp.Unpowered)
-        };
-
-    public override async Task AfterPlayerTurnStart(PlayerChoiceContext context, Player player)
+    public override async Task AfterRestSiteSmith(Player player)
     {
         if (player != Owner)
             return;
+        
+        var deck = Owner.Deck;
 
-        int turn = Owner.Creature.CombatState.RoundNumber;
+        var candidates = deck.Cards
+            .Where(c => c != null && c.IsUpgradable)
+            .ToList();
 
-        if (turn <= 0)
+        if (candidates.Count == 0)
             return;
 
         Flash();
-        
-        var blockVar = new BlockVar((decimal)turn, ValueProp.Unpowered);
 
-        await CreatureCmd.GainBlock(
-            Owner.Creature,
-            blockVar,
-            null
-        );
+        CardModel target = candidates
+            .StableShuffle(Owner.RunState.Rng.Niche)
+            .First();
+
+        CardCmd.Upgrade(target);
+
+        await Task.CompletedTask;
     }
 }
